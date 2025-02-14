@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário  Crase </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container {
+            width: 70%;
+            padding: 10px;
+            background-color: #98fb98;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-size: 16px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #question-container {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 20px; /* Aumenta o tamanho das respostas */
+            margin: 1px 0; /* Espaçamento entre as respostas */
+            display: block; /* Coloca cada resposta em uma linha separada */
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 24px;
+            cursor: pointer;
+            color: blue;
+            font-family: 'Papyrus', cursive;
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <img src="C:\Users\Elainia\Downloads\viniedu.jpg" alt="Logo do site" width="150" height="150">
+       <h1 style="color: yellow;"> Questionário Crase </h1>
+    </div>
+
+    <div class="container">
+        <div id="question-container"></div>
+        <button id="next-button" onclick="nextQuestion()">Próxima Questão</button>
+        <button id="restart-button" onclick="restartQuiz()" style="display: none;">Refazer Questionário</button>
+    </div>
+
+    <script>
+        const questions = [
+
+            {
+                question: " Assinale a alternativa em que o uso da crase está correto:",
+                answers: ["A) Ela foi à escola de manhã. ", "B) Eles foram a escola ontem. ", "C) Vamos a festa mais tarde. ", "D) Ela se referiu à ela mesma."],
+                correct: 0
+            },
+            {
+                question: " Assinale a alternativa em que não há crase: ",
+                answers: ["A) Vou à festa amanhã. ", "B) Ela foi à escola ontem. ", "C) Ela vai a casa dos pais. ", "D) Ele viajou à noite."],
+                correct: 2
+            },
+            {
+                question: " Qual a alternativa em que o uso da crase está incorreto?",
+                answers: ["A)  Ele foi à reunião ontem. ", "B) Vamos à praia neste fim de semana. ", "C) Eles chegaram à hora marcada.", "D) Ela foi a loja comprar os produtos."],
+                correct: 3
+            },
+            {
+                question: " Em qual frase a crase é obrigatória? ",
+                answers: ["A) Vou a escola agora. ", "B)Vou à escola agora. ", "C) Ele foi a biblioteca ontem. ", "D) Ele vai a universidade amanhã. "],
+                correct: 1
+            },
+            {
+                question: " Assinale a alternativa em que o uso da crase está correto: ",
+                answers: ["A) Ela foi à loja comprar roupas. ", "B)  Eu vou a biblioteca estudar. ", "C) Eles foram a universidade de manhã. ", "D) Ele vai à escola no sábado."],
+                correct: 0
+            },
+            {
+                question: " Em qual frase a crase é desnecessária? ",
+                answers: ["A) Ela vai à escola de manhã. ", "B) Ela foi à faculdade de ontem. ", "C) Eu vou à festa hoje à noite. ", "D) Eles viajaram a Europa recentemente."],
+                correct: 3
+            },
+            {
+                question: " Qual a alternativa em que a crase não deve ser usada? ",
+                answers: ["A) Ela vai à igreja todos os domingos. ", "B) Ele foi à festa ontem. ", "C) Vamos a praia aproveitar o sol.", "D) Ela foi à escola aprender inglês."],
+                correct: 2
+            },
+            {
+                question: " Assinale a alternativa correta: ",
+                answers: ["A) Ela se referiu à seu avô com carinho. ", "B) Ela se dirigiu à casa dos pais. ", "C) Ela foi a casa dos pais. ", "D) Ela se referiu a ela mesma com carinho."],
+                correct: 1
+            },
+            {
+                question: " Em qual das frases a crase é obrigatória? ",
+                answers: ["A) Ela vai a escola todos os dias. ", "B) Vamos a sala de aula. ", "C) Vou a reunião agora. ", "D) Ele foi à loja comprar roupas."],
+                correct: 3
+            },
+            {
+                question: " Assinale a alternativa correta: ",
+                answers: ["A) Ela foi à casa de sua amiga. ", "B) Eles foram a casa de seus pais. ", "C) Vamos a casa de seus pais. ", "D) Vamos à casa de suas irmãs. "],
+                correct: 0
+            },
+            {
+                question: " Qual a alternativa em que o uso da crase está correto? ",
+                answers: ["A) Eles foram à escola ontem. ", "B) Ela foi a escola de manhã. ", "C) Ela viajou à França no ano passado. ", "D) Eles foram à loja de roupas. "],
+                correct: 2
+            },
+            {
+                question: " Em qual alternativa o uso da crase está incorreto? ",
+                answers: ["A) Ela se referiu à ele durante a explicação. ", "B) Ele foi à escola de manhã. ", "C) Vamos à festa amanhã. ", "D) Ela foi à praia ontem."],
+                correct: 0
+            },
+            {
+                question: " Assinale a alternativa em que a crase é obrigatória: ",
+                answers: ["A) Vamos a casa agora. ", "B) Ela foi à faculdade.", "C) Eu vou a festa.  ", "D) Ela vai à loja comprar roupas."],
+                correct: 3
+            },
+            {
+                question: " Assinale a alternativa correta: ",
+                answers: ["A) Vou à compra de livros.", "B) Eles foram à universidade pública. ", "C) Ela vai à casa do professor. ", "D) Eles estão à espera da reunião."],
+                correct: 1
+            },
+            {
+                question: " Assinale a alternativa em que a crase está incorreta:",
+                answers: ["A) Ela foi à festa de aniversário. ", "B) Ele vai à biblioteca estudar. ", "C) Eu vou a universidade amanhã.", "D) Vou à loja de roupas."],
+                correct: 2
+            }
+
+
+            // Adicione mais perguntas conforme necessário
+        ];
+
+        let currentQuestion = 0;
+        let userAnswers = [];
+
+        function shuffleQuestions() {
+            for (let i = questions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [questions[i], questions[j]] = [questions[j], questions[i]];
+            }
+        }
+
+        function showQuestion() {
+            const questionContainer = document.getElementById("question-container");
+            const questionData = questions[currentQuestion];
+            questionContainer.innerHTML = `
+                <h2>${questionData.question}</h2>
+                ${questionData.answers.map((answer, index) => `
+                    <label>
+                        <input type="radio" name="answer" value="${index}">
+                        ${answer}
+                    </label><br>
+                `).join("")}
+            `;
+        }
+
+        function nextQuestion() {
+            const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+            if (selectedAnswer) {
+                userAnswers.push(parseInt(selectedAnswer.value));
+                currentQuestion++;
+                if (currentQuestion < questions.length) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            } else {
+                alert("Por favor, selecione uma resposta.");
+            }
+        }
+
+        function showResults() {
+            let score = 0;
+            const questionContainer = document.getElementById("question-container");
+            let resultHtml = "<h2>Resultado Final</h2><table><tr><th>Questão</th><th>Resposta Correta</th><th>Sua Resposta</th></tr>";
+
+            questions.forEach((q, index) => {
+                const isCorrect = userAnswers[index] === q.correct;
+                if (isCorrect) score++;
+                resultHtml += `
+                    <tr>
+                        <td>${q.question}</td>
+                        <td>${q.answers[q.correct]}</td>
+                        <td>${q.answers[userAnswers[index]] || "Não respondida"}</td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr> <!-- Linha separadora entre respostas -->
+                `;
+            });
+
+            resultHtml += `</table><p>Total de acertos: ${score}/${questions.length}</p>`;
+            questionContainer.innerHTML = resultHtml;
+            document.getElementById("next-button").style.display = "none";
+            document.getElementById("restart-button").style.display = "inline-block";
+        }
+
+        function restartQuiz() {
+            userAnswers = [];
+            currentQuestion = 0;
+            shuffleQuestions();
+            showQuestion();
+            document.getElementById("next-button").style.display = "inline-block";
+            document.getElementById("restart-button").style.display = "none";
+        }
+
+        shuffleQuestions();
+        showQuestion();
+    </script>
+</body>
+</html>
