@@ -16,7 +16,7 @@
             display: inline-block;
         }
         .dropdown-content {
-            display: none; /* Oculta o conteúdo do dropdown por padrão */
+            display: none;
             position: absolute;
             background-color: blue;
             min-width: 160px;
@@ -32,26 +32,24 @@
         .dropdown-content a:hover {
             background-color: #5e0c55;
         }
-        /* Mostra o conteúdo do dropdown quando o mouse estiver sobre o botão */
         .dropdown:hover .dropdown-content {
-            display: block; /* Mostra o conteúdo ao passar o mouse sobre o dropdown */
+            display: block;
         }
-        /* Estilos para os botões */
         .btn {
-            font-size: 20px; /* Aumenta o tamanho da fonte */
-            padding: 10px 20px; /* Espaciamento interno do botão */
-            margin: 25px; /* Margem entre os botões */
-            border: none; /* Remove bordas padrão */
-            border-radius: 15px; /* Arredonda os cantos */
-            cursor: pointer; /* Muda o cursor ao passar o mouse */
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 25px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
         }
         .btn-page1 {
-            background-color: #FF5733; /* Cor do primeiro botão */
-            color: white; /* Cor do texto */
+            background-color: #FF5733;
+            color: white;
         }
         .btn-page2 {
-            background-color: #33FF57; /* Cor do segundo botão */
-            color: white; /* Cor do texto */
+            background-color: #33FF57;
+            color: white;
         }
     </style>
 </head>
@@ -62,8 +60,9 @@
         <button class="btn btn-page1"> Planejamento Estratégico</button>
         <div class="dropdown-content">
             <a href="Gestão Estrategica.html">Gestão Estratégica</a>
-   </div>
+        </div> </div> <--- Linha corrigida
     </div>
+
     <script>
         // Lógica adicional pode ser adicionada aqui, se necessário.
     </script>
