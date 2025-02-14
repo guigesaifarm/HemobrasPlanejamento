@@ -39,7 +39,76 @@ const questions = [
         ],
         correct: 0
     },
-
+ {
+        question: " O que é o Balanced Scorecard (BSC)?",
+        answers: [
+            "A) Uma ferramenta de gestão que mede o desempenho financeiro de uma empresa.",
+            "B) Um sistema de avaliação que foca apenas nos indicadores financeiros da organização. ",
+            "C) Uma metodologia de gestão estratégica que mede o desempenho de uma empresa sob quatro perspectivas: financeira, clientes, processos internos e aprendizado e crescimento. ",
+            "D) Uma ferramenta usada exclusivamente para marketing e comunicação. "
+        ],
+        correct: 2
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
+     {
+        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        answers: [
+            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
+            "B) Financeira, fornecedores, inovação e qualidade.",
+            "C) Funcionários, processos internos, marketing e retorno financeiro.",
+            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+        ],
+        correct: 0
+    },
     
 
             // Adicione mais perguntas conforme necessário
