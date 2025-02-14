@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário Métodos Planejamento </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container {
+            width: 70%;
+            padding: 10px;
+            background-color: #98fb98;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-size: 16px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #question-container {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 20px; /* Aumenta o tamanho das respostas */
+            margin: 1px 0; /* Espaçamento entre as respostas */
+            display: block; /* Coloca cada resposta em uma linha separada */
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 24px;
+            cursor: pointer;
+            color: blue;
+            font-family: 'Papyrus', cursive;
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <img src="hemobras.jpg" alt="Logo do site" width="150" height="150">
+       <h1 style="color: yellow;"> Questionário Metodos de Planejamento</h1>
+    </div>
+
+    <div class="container">
+        <div id="question-container"></div>
+        <button id="next-button" onclick="nextQuestion()">Próxima Questão</button>
+        <button id="restart-button" onclick="restartQuiz()" style="display: none;">Refazer Questionário</button>
+    </div>
+
+    <script>
+        const questions = [
+
+            {
+                question: " Qual das seguintes opções melhor define Gestão Estratégica? ",
+                answers: ["A) Processo de tomada de decisões operacionais para o dia a dia da empresa. ", "B)  Conjunto de ações táticas para alcançar metas de curto prazo. ", "C)  Processo de formulação e implementação de ações para alcançar os objetivos de longo prazo da organização, considerando o ambiente interno e externo. ", "D) Análise de dados financeiros para avaliar o desempenho da empresa no último trimestre. "],
+                correct: 2
+            },
+            {
+                question: " Em qual nível de estratégia se define o mercado-alvo e a proposta de valor de um produto ou serviço? ",
+                answers: ["A) Estratégia Corporativa ", "B) Estratégia de Negócios  ", "C) Estratégia Funcional ", "D) Todas as alternativas anteriores "],
+                correct: 1
+            },
+            {
+                question: "  A Análise SWOT é uma ferramenta utilizada para: ",
+                answers: ["A) Avaliar o desempenho financeiro da empresa. ", "B) Identificar os pontos fortes e fracos da organização, bem como as oportunidades e ameaças do ambiente externo. ", "C) Definir a missão, visão e valores da empresa. ", "D) Elaborar o plano de marketing da empresa. "],
+                correct: 1
+            },
+            {
+                question: " Qual dos seguintes modelos de estratégia auxilia na análise do ambiente competitivo de uma indústria? ",
+                answers: ["A) Análise PESTLE  ", "B) Matriz BCG ", "C)  Modelo das 5 Forças de Porter ", "D) Balanced Scorecard "],
+                correct: 2
+            },
+            {
+                question: " Uma estrutura organizacional funcional é caracterizada por: ",
+                answers: ["A) Departamentos organizados por funções (ex: marketing, finanças, produção). ", "B) Departamentos organizados por produtos ou serviços. ", "C) Uma combinação de departamentos funcionais e divisionais. ", "D) Uma rede de empresas que colaboram entre si. "],
+                correct: 0
+            },
+            {
+                question: " Qual das seguintes etapas NÃO faz parte do processo de planejamento estratégico? ",
+                answers: ["A) Definição da missão, visão e valores. ", "B) Análise do ambiente interno e externo. ", "C)  Implementação e controle das ações. ", "D) Execução de tarefas operacionais diárias."],
+                correct: 3
+            },
+            {
+                question: " Um dos principais desafios na implementação de estratégias é:",
+                answers: ["A) A falta de recursos financeiros. ", "B) A resistência à mudança por parte dos colaboradores. ", "C) A falta de planejamento estratégico. ", "D)  Todas as alternativas anteriores. "],
+                correct: 1
+            },
+            {
+                question: " O Balanced Scorecard (BSC) é uma ferramenta que permite: ",
+                answers: ["A) Avaliar o desempenho da empresa sob diferentes perspectivas (financeira, clientes, processos internos e aprendizado e crescimento). ", "B) Definir a missão, visão e valores da empresa. ", "C)  Analisa o ambiente interno e externo da organização. ", "D) Avalia o desempenho financeiro da empresa."],
+                correct: 0
+            },
+            {
+                question: " A gestão da mudança é importante no contexto da gestão estratégica porque: ",
+                answers: ["A)  Permite que a empresa se adapte às novas condições do mercado e garanta que as estratégias sejam implementadas com sucesso. ", "B) Define a missão, visão e valores da empresa. ", "C) Personificação ", "D)Hipérbole "],
+                correct: 0
+            },
+            {
+                question: " A inovação é importante para a estratégia da empresa porque: ",
+                answers: ["A) Permite que a empresa se adapte às mudanças do mercado e crie novos produtos e serviços, obtendo vantagem competitiva. ", "B) Define a estrutura organizacional da empresa. ", "C) É um modelo para avaliar o desempenho financeiro da organização. ", "D)  Trata-se do processo de gestão de recursos humanos dentro da empresa. "],
+                correct: 0
+            },
+            {
+                question: " O que é um "ciclo de vida da estratégia" na gestão estratégica? ",
+                answers: ["A) Refere-se ao processo de criação de novos produtos. ", "B) É a evolução das estratégias ao longo do tempo, desde sua formulação até sua implementação e revisão. ", "C) O vento soprava forte durante a noite.", "D) As estrelas brilhavam no céu.  "],
+                correct: 1
+            },
+            {
+                question: " . Em uma análise SWOT, o que significa a letra "O"? ",
+                answers: ["A) Oportunidades ", "B) Organização  ", "C) Objetivos ", "D) Operações "],
+                correct: 0
+            }
+
+            // Adicione mais perguntas conforme necessário
+        ];
+
+        let currentQuestion = 0;
+        let userAnswers = [];
+
+        function shuffleQuestions() {
+            for (let i = questions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [questions[i], questions[j]] = [questions[j], questions[i]];
+            }
+        }
+
+        function showQuestion() {
+            const questionContainer = document.getElementById("question-container");
+            const questionData = questions[currentQuestion];
+            questionContainer.innerHTML = `
+                <h2>${questionData.question}</h2>
+                ${questionData.answers.map((answer, index) => `
+                    <label>
+                        <input type="radio" name="answer" value="${index}">
+                        ${answer}
+                    </label><br>
+                `).join("")}
+            `;
+        }
+
+        function nextQuestion() {
+            const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+            if (selectedAnswer) {
+                userAnswers.push(parseInt(selectedAnswer.value));
+                currentQuestion++;
+                if (currentQuestion < questions.length) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            } else {
+                alert("Por favor, selecione uma resposta.");
+            }
+        }
+
+        function showResults() {
+            let score = 0;
+            const questionContainer = document.getElementById("question-container");
+            let resultHtml = "<h2>Resultado Final</h2><table><tr><th>Questão</th><th>Resposta Correta</th><th>Sua Resposta</th></tr>";
+
+            questions.forEach((q, index) => {
+                const isCorrect = userAnswers[index] === q.correct;
+                if (isCorrect) score++;
+                resultHtml += `
+                    <tr>
+                        <td>${q.question}</td>
+                        <td>${q.answers[q.correct]}</td>
+                        <td>${q.answers[userAnswers[index]] || "Não respondida"}</td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr> <!-- Linha separadora entre respostas -->
+                `;
+            });
+
+            resultHtml += `</table><p>Total de acertos: ${score}/${questions.length}</p>`;
+            questionContainer.innerHTML = resultHtml;
+            document.getElementById("next-button").style.display = "none";
+            document.getElementById("restart-button").style.display = "inline-block";
+        }
+
+        function restartQuiz() {
+            userAnswers = [];
+            currentQuestion = 0;
+            shuffleQuestions();
+            showQuestion();
+            document.getElementById("next-button").style.display = "inline-block";
+            document.getElementById("restart-button").style.display = "none";
+        }
+
+        shuffleQuestions();
+        showQuestion();
+    </script>
+</body>
+</html>
