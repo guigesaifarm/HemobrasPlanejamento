@@ -143,6 +143,7 @@
         }
 
         function showQuestion() {
+            console.log('Exibindo a questão', currentQuestion); // Verifica se está sendo chamada corretamente
             const questionContainer = document.getElementById("question-container");
             const questionData = questions[currentQuestion];
             questionContainer.innerHTML = `
