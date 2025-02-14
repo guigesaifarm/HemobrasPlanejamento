@@ -50,32 +50,32 @@ const questions = [
         correct: 2
     },
      {
-        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        question: " A perspectiva "financeira" no BSC se concentra em:",
         answers: [
-            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
-            "B) Financeira, fornecedores, inovação e qualidade.",
-            "C) Funcionários, processos internos, marketing e retorno financeiro.",
-            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+            "A) Medir o desempenho de novos produtos no mercado. ",
+            "B) A avaliação de custo-benefício de estratégias de recursos humanos. ",
+            "C) Avaliar o desempenho financeiro da organização, como lucros, retorno sobre investimento e valor para os acionistas.",
+            "D) Medir a satisfação dos funcionários e clientes. "
         ],
-        correct: 0
+        correct: 2
     },
      {
-        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        question: "  Na perspectiva de "clientes" do BSC, a ênfase é:",
         answers: [
-            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
-            "B) Financeira, fornecedores, inovação e qualidade.",
-            "C) Funcionários, processos internos, marketing e retorno financeiro.",
-            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+            "A)  Monitorar os processos internos da empresa. ",
+            "B)  Melhorar a experiência e a satisfação do cliente, medindo lealdade, retenção e aquisição de clientes. ",
+            "C)  Avaliar a rentabilidade de novos projetos.",
+            "D)  Focar em reduzir custos operacionais."
         ],
-        correct: 0
+        correct: 1
     },
      {
-        question: " Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        question: " A perspectiva "processos internos" do BSC se concentra em: ",
         answers: [
-            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
-            "B) Financeira, fornecedores, inovação e qualidade.",
-            "C) Funcionários, processos internos, marketing e retorno financeiro.",
-            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+            "A) A eficiência operacional e a melhoria dos processos internos críticos que impactam a qualidade e a entrega de valor ao cliente.",
+            "B) A análise de dados financeiros e a projeção de lucros futuros.",
+            "C) A análise de oportunidades de marketing e comunicação.",
+            "D) A satisfação dos stakeholders e dos acionistas."
         ],
         correct: 0
     },
