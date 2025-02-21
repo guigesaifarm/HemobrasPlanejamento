@@ -20,24 +20,24 @@ const questions = [
         correct: 1
     },
     {
-        question: "No MASP, qual é o objetivo da etapa de Análise das Causas?",
+        question: "O que caracteriza a modelagem de processos As-Is?",
         answers: [
-            "A) Elaborar uma solução sem considerar as causas do problema.",
-            "B) Diagnosticar o problema e a necessidade de novos investimentos. ",
-            "C) Identificar as causas raiz do problema para tratá-lo de maneira eficaz. ",
-            "D) Definir a equipe que será responsável pela solução."
+            "A) Modelagem que representa o processo como ele deveria ser no futuro.",
+            "B) Modelagem que descreve o processo como ele é atualmente, sem mudanças.",
+            "C) Modelagem que descreve a visão futura desejada para o processo",
+            "D) Modelagem que descreve o processo após as melhorias serem implementadas."
         ],
-        correct: 2
+        correct: 1
     },
     {
-        question: "Em qual etapa do MASP é feita a coleta de dados para análise?",
+        question: "O que significa a modelagem To-Be em gestão de processos?",
         answers: [
-            "A) Implementação da solução.",
-            "B) Definição do problema. ",
-            "C) Análise das causas. ",
-            "D) Estudo e monitoramento de resultados."
+            "A) Representa o processo atual, com todos os problemas identificados.",
+            "B) Representa o processo após a implementação de melhorias ou mudanças desejadas.",
+            "C) Representa o processo sem quaisquer alterações ou otimizações.",
+            "D) Representa o processo como ele é no final do projeto."
         ],
-        correct: 2
+        correct: 1
     },
     {
         question: "O que caracteriza a etapa de Definição do Problema no MASP?",
