@@ -20,14 +20,14 @@ const questions = [
         correct: 1
     },
     {
-        question: "A Análise SWOT é uma ferramenta utilizada para:",
+        question: " No MASP, qual é o objetivo da etapa de (Análise das Causas) ? ",
         answers: [
-            "A) Avaliar o desempenho financeiro da empresa.",
-            "B) Identificar os pontos fortes e fracos da organização, bem como as oportunidades e ameaças do ambiente externo.",
-            "C) Definir a missão, visão e valores da empresa.",
-            "D) Elaborar o plano de marketing da empresa."
+            "A) Elaborar uma solução sem considerar as causas do problema.",
+            "B) Diagnosticar o problema e a necessidade de novos investimentos. ",
+            "C) Identificar as causas raiz do problema para tratá-lo de maneira eficaz. ",
+            "D) Definir a equipe que será responsável pela solução."
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "Quais são as quatro perspectivas principais do Balanced Scorecard?",
