@@ -50,13 +50,12 @@ const questions = [
         correct: 1
     },
     {
-        question: " Qual é o papel da "Implementação" no MASP? ",
+        question: " Qual é o papel da (Implementação) no MASP? ",
         answers: [
             "A) Resolver o problema sem se preocupar com o impacto em longo prazo.",
             "B) Aplicar as soluções propostas com acompanhamento dos resultados.",
             "C) Investigar mais profundamente as causas do problema.",
-            "D) Testar apenas as soluções mais baratas e simples.
-"
+            "D) Testar apenas as soluções mais baratas e simples."
         ],
         correct: 1
     },
