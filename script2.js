@@ -10,12 +10,12 @@ const questions = [
         correct: 2
     },
     {
-        question: "Em qual nível de estratégia se define o mercado-alvo e a proposta de valor de um produto ou serviço?",
+        question: "Quais são as etapas principais do MASP? ",
         answers: [
-            "A) Estratégia Corporativa",
-            "B) Estratégia de Negócios",
-            "C) Estratégia Funcional",
-            "D) Todas as alternativas anteriores"
+            "A) Definição do problema, pesquisa de mercado, análise SWOT e análise de custos.",
+            "B) Identificação do problema, análise das causas, definição de soluções, implementação e controle dos resultados.",
+            "C) Diagnóstico financeiro, análise do mercado, ações corretivas e feedback.",
+            "D) Identificação da solução, levantamento de recursos, análise de viabilidade e monitoramento."
         ],
         correct: 1
     },
