@@ -1,21 +1,21 @@
 const questions = [
     {
-        question: "O que é o MASP (Método de Análise e Solução de Problemas)?",
+        question: "O que significa a sigla BPM na gestão de processos de negócios?",
         answers: [
-            "A) Um método voltado apenas para a análise de dados financeiros.",
-            "B) Uma ferramenta utilizada para resolver problemas relacionados a recursos humanos.",
-            "C) Uma metodologia estruturada para identificar, analisar e resolver problemas de forma sistemática.  ",
-            "D) Um modelo de negócios para aumentar a lucratividade de uma organização. "
+            "A) Business Process Management (Gestão de Processos de Negócios).",
+            "B) Balanced Process Management (Gestão Balanceada de Processos).",
+            "C) Business Process Methodology (Metodologia de Processos de Negócios).",
+            "D) Business Planning Model (Modelo de Planejamento de Negócios)."
         ],
-        correct: 2
+        correct: 0
     },
     {
-        question: "Quais são as etapas principais do MASP?",
+        question: "Qual é a principal função dos indicadores de desempenho de processos (KPIs)?",
         answers: [
-            "A) Definição do problema, pesquisa de mercado, análise SWOT e análise de custos.",
-            "B) Identificação do problema, análise das causas, definição de soluções, implementação e controle dos resultados.",
-            "C) Diagnóstico financeiro, análise do mercado, ações corretivas e feedback.",
-            "D) Identificação da solução, levantamento de recursos, análise de viabilidade e monitoramento."
+            "A) Garantir que todos os processos sejam concluídos dentro do prazo estipulado.",
+            "B) Medir a eficiência e a eficácia dos processos, permitindo ajustes e melhorias.",
+            "C) Controlar as atividades individuais de cada colaborador no processo.",
+            "D) Prever o sucesso do processo no longo prazo, sem necessidade de ajustes."
         ],
         correct: 1
     },
