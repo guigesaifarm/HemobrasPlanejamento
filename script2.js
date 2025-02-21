@@ -40,24 +40,25 @@ const questions = [
         correct: 2
     },
     {
-        question: "O que é o Balanced Scorecard (BSC)?",
+        question: "O que caracteriza a etapa de (Definição do Problema) no MASP? ",
         answers: [
-            "A) Uma ferramenta de gestão que mede o desempenho financeiro de uma empresa.",
-            "B) Um sistema de avaliação que foca apenas nos indicadores financeiros da organização.",
-            "C) Uma metodologia de gestão estratégica que mede o desempenho de uma empresa sob quatro perspectivas: financeira, clientes, processos internos e aprendizado e crescimento.",
-            "D) Uma ferramenta usada exclusivamente para marketing e comunicação."
+            "A) Trata-se de identificar quais recursos financeiros serão necessários",
+            "B) Consiste em delimitar e descrever claramente o problema a ser resolvido, sem considerar soluções ainda.",
+            "C) Implica em encontrar soluções rápidas e temporárias.",
+            "D) Trata de medir os resultados e definir metas de longo prazo."
         ],
-        correct: 2
+        correct: 1
     },
     {
-        question: 'A perspectiva "financeira" no BSC se concentra em:',
+        question: " Qual é o papel da "Implementação" no MASP? ",
         answers: [
-            "A) Medir o desempenho de novos produtos no mercado.",
-            "B) A avaliação de custo-benefício de estratégias de recursos humanos.",
-            "C) Avaliar o desempenho financeiro da organização, como lucros, retorno sobre investimento e valor para os acionistas.",
-            "D) Medir a satisfação dos funcionários e clientes."
+            "A) Resolver o problema sem se preocupar com o impacto em longo prazo.",
+            "B) Aplicar as soluções propostas com acompanhamento dos resultados.",
+            "C) Investigar mais profundamente as causas do problema.",
+            "D) Testar apenas as soluções mais baratas e simples.
+"
         ],
-        correct: 2
+        correct: 1
     },
     {
         question: 'Na perspectiva de "clientes" do BSC, a ênfase é:',
