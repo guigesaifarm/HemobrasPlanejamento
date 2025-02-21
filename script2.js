@@ -98,36 +98,6 @@ const questions = [
             "D) Apenas em casos de problemas de marketing e vendas."
         ],
         correct: 1
-    },
-    {
-        question: "Como o Balanced Scorecard ajuda a estratégia de uma organização?",
-        answers: [
-            "A) Ele ignora a missão e visão da organização para focar exclusivamente nas métricas financeiras.",
-            "B) Ele ajuda a traduzir a estratégia em ações concretas, alinhando os objetivos estratégicos com as operações diárias e fornecendo feedback contínuo sobre o progresso.",
-            "C) Ele concentra-se apenas em aumentar a participação no mercado, sem considerar a eficiência interna.",
-            "D) Ele usa apenas indicadores financeiros para medir a performance organizacional."
-        ],
-        correct: 1
-    },
-    {
-        question: 'Qual das seguintes afirmativas sobre o Balanced Scorecard é correta?',
-        answers: [
-            "A) O BSC é apenas útil para grandes corporações e não se aplica a pequenas empresas.",
-            "B) O BSC foca apenas na avaliação de resultados financeiros a longo prazo, sem considerar os processos internos ou aprendizado dos funcionários.",
-            "C) O BSC ajuda a monitorar e alinhar as atividades da organização com sua visão estratégica e seus objetivos de longo prazo.",
-            "D) O BSC é utilizado apenas como uma ferramenta de marketing, sem impacto nos processos operacionais."
-        ],
-        correct: 2
-    },
-    {
-        question: 'O que significa "alinhamento estratégico" no contexto do Balanced Scorecard?',
-        answers: [
-            "A) A adaptação de metas financeiras para os diferentes níveis hierárquicos da empresa.",
-            "B) O processo de garantir que as atividades operacionais de cada unidade de negócios estejam diretamente conectadas com a visão e os objetivos estratégicos da organização.",
-            "C) A medição de resultados financeiros de cada unidade de negócios sem considerar a estratégia global.",
-            "D) A criação de estratégias específicas para diferentes departamentos da empresa, sem integração entre eles."
-        ],
-        correct: 1
     }
 ];
 
