@@ -40,62 +40,62 @@ const questions = [
         correct: 1
     },
     {
-        question: "O que caracteriza a etapa de Definição do Problema no MASP?",
+        question: "Qual é a relação entre os conceitos de As-Is e To-Be na gestão de processos?",
         answers: [
-            "A) Trata-se de identificar quais recursos financeiros serão necessários",
-            "B) Consiste em delimitar e descrever claramente o problema a ser resolvido, sem considerar soluções ainda.",
-            "C) Implica em encontrar soluções rápidas e temporárias.",
-            "D) Trata de medir os resultados e definir metas de longo prazo."
+            "A) As-Is representa o processo ideal e To-Be representa o processo atual.",
+            "B) As-Is representa o processo atual, enquanto To-Be representa o processo otimizado ou futuro.",
+            "C) Não há relação entre esses conceitos.",
+            "D) As-Is é uma versão temporária do processo e To-Be é o final do ciclo de vida do processo."
         ],
         correct: 1
     },
     {
-        question: "Qual é o papel da Implementação no MASP?",
+        question: "O que é a Gestão de Processos de Negócios,BPM, focada em?",
         answers: [
-            "A) Resolver o problema sem se preocupar com o impacto em longo prazo.",
-            "B) Aplicar as soluções propostas com acompanhamento dos resultados.",
-            "C) Investigar mais profundamente as causas do problema.",
-            "D) Testar apenas as soluções mais baratas e simples."
+            "A) Em criar processos de negócios de baixo custo, independentemente da qualidade.",
+            "B) Em melhorar e otimizar processos de negócios de forma contínua.",
+            "C) Em criar novos produtos e serviços sem se preocupar com os processos.",
+            "D) Em manter os processos exatamente como estão, sem alterações."
         ],
         correct: 1
     },
     {
-        question: "No MASP, o que é feito durante a etapa de Controle dos Resultados?",
+        question: "Quais são os principais objetivos da modelagem de processos de negócios?",
         answers: [
-            "A) A solução é monitorada para garantir que os problemas sejam definitivamente resolvidos. ",
-            "B) Apenas a definição de novas metas e objetivos é realizada.",
-            "C) Nenhuma ação é tomada após a implementação da solução.",
-            "D) A solução é apenas analisada superficialmente."
+            "A) Documentar e identificar os processos de forma clara, para que possam ser analisados e otimizados.",
+            "B) Aumentar o custo operacional sem trazer benefícios claros.",
+            "C) Criar processos sem considerar a eficiência ou a eficácia",
+            "D) Deixar os processos mais complexos e difíceis de serem gerenciados."
         ],
         correct: 0
     },
     {
-        question: "Qual é a importância de realizar o Estudo da Viabilidade dentro do MASP?",
+        question: "Quais são as etapas típicas no ciclo de melhoria de processos no BPM?",
         answers: [
-            "A) Avaliar se o problema identificado está gerando altos custos financeiros.",
-            "B) Verificar se a solução proposta pode ser aplicada de forma eficiente, considerando recursos, tempo e custo.",
-            "C) Identificar os principais envolvidos no processo de solução.",
-            "D) Criar um plano de marketing para promover a solução."
+            "A) Planejamento, execução, avaliação, encerramento.",
+            "B) Análise, redesenho, implementação, monitoramento.",
+            "C) Planejamento, execução, controle de qualidade, encerramento.",
+            "D) Monitoramento, análise de riscos, aprovação e execução."
         ],
         correct: 1
     },
     {
-        question: 'Qual é o benefício da aplicação do MASP em uma organização?',
+        question: 'Como os indicadores de desempenho de processos (KPIs) contribuem para a melhoria contínua em uma organização?',
         answers: [
-            "A) Aumento de custos operacionais sem melhoria significativa nos resultados.",
-            "B) Melhoria contínua nos processos e soluções estruturadas para os problemas encontrados.",
-            "C) Redução de recursos financeiros e materiais.",
-            "D) Aumento da competitividade no mercado por meio de estratégias agressivas."
+            "A) Facilitam o controle financeiro sem relação direta com os processos",
+            "B) Permitem monitorar a eficiência dos processos e identificar áreas para melhoria contínua.",
+            "C) São usados exclusivamente para penalizar equipes quando não atingem metas.",
+            "D) Não têm impacto direto no desempenho dos processos."
         ],
         correct: 1
     },
     {
-        question: "Em que situação o MASP é mais utilizado?",
+        question: "Quais são os principais benefícios da aplicação do BPM em uma organização?",
         answers: [
-            "A) Apenas em empresas de grande porte com grandes problemas financeiros",
-            "B) Para otimizar processos e solucionar problemas identificados em qualquer tipo de organização, independente do porte.",
-            "C) Quando uma empresa precisa realizar reestruturações corporativas rápidas.",
-            "D) Apenas em casos de problemas de marketing e vendas."
+            "A) Aumento de custos operacionais sem impacto nas operações.",
+            "B) Melhoria da comunicação interna, redução de custos e aumento da eficiência dos processos.",
+            "C) Redução da flexibilidade organizacional.",
+            "D) Foco exclusivo em resultados financeiros, sem considerar a qualidade dos processos."
         ],
         correct: 1
     }
