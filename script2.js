@@ -61,24 +61,24 @@ const questions = [
         correct: 1
     },
     {
-        question: 'Na perspectiva de "clientes" do BSC, a ênfase é:',
+        question: "No MASP, o que é feito durante a etapa de (Controle dos Resultados)?",
         answers: [
-            "A) Monitorar os processos internos da empresa.",
-            "B) Melhorar a experiência e a satisfação do cliente, medindo lealdade, retenção e aquisição de clientes.",
-            "C) Avaliar a rentabilidade de novos projetos.",
-            "D) Focar em reduzir custos operacionais."
-        ],
-        correct: 1
-    },
-    {
-        question: 'A perspectiva "processos internos" do BSC se concentra em:',
-        answers: [
-            "A) A eficiência operacional e a melhoria dos processos internos críticos que impactam a qualidade e a entrega de valor ao cliente.",
-            "B) A análise de dados financeiros e a projeção de lucros futuros.",
-            "C) A análise de oportunidades de marketing e comunicação.",
-            "D) A satisfação dos stakeholders e dos acionistas."
+            "A) A solução é monitorada para garantir que os problemas sejam definitivamente resolvidos. ",
+            "B) Apenas a definição de novas metas e objetivos é realizada.",
+            "C) Nenhuma ação é tomada após a implementação da solução.",
+            "D) A solução é apenas analisada superficialmente."
         ],
         correct: 0
+    },
+    {
+        question: "Qual é a importância de realizar o (Estudo da Viabilidade) dentro do MASP? ",
+        answers: [
+            "A) Avaliar se o problema identificado está gerando altos custos financeiros. ",
+            "B) Verificar se a solução proposta pode ser aplicada de forma eficiente, considerando recursos, tempo e custo.",
+            "C) Identificar os principais envolvidos no processo de solução.",
+            "D) Criar um plano de marketing para promover a solução."
+        ],
+        correct: 1
     },
     {
         question: 'A perspectiva "aprendizado e crescimento" do BSC está relacionada a:',
