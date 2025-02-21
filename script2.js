@@ -3,9 +3,9 @@ const questions = [
         question: "O que é o MASP (Método de Análise e Solução de Problemas)?",
         answers: [
             "A) Um método voltado apenas para a análise de dados financeiros.",
-            "B) Conjunto de ações táticas para alcançar metas de curto prazo.",
-            "C) Processo de formulação e implementação de ações para alcançar os objetivos de longo prazo da organização, considerando o ambiente interno e externo.",
-            "D) Análise de dados financeiros para avaliar o desempenho da empresa no último trimestre."
+            "B) Uma ferramenta utilizada para resolver problemas relacionados a recursos humanos.",
+            "C) Uma metodologia estruturada para identificar, analisar e resolver problemas de forma sistemática.  ",
+            "D) Um modelo de negócios para aumentar a lucratividade de uma organização. "
         ],
         correct: 2
     },
