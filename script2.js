@@ -30,14 +30,14 @@ const questions = [
         correct: 2
     },
     {
-        question: "Quais são as quatro perspectivas principais do Balanced Scorecard?",
+        question: " Em qual etapa do MASP é feita a coleta de dados para análise? ",
         answers: [
-            "A) Financeira, clientes, processos internos e aprendizado e crescimento.",
-            "B) Financeira, fornecedores, inovação e qualidade.",
-            "C) Funcionários, processos internos, marketing e retorno financeiro.",
-            "D) Resultados financeiros, satisfação do cliente, eficiência e sustentabilidade."
+            "A) Implementação da solução.",
+            "B) Definição do problema. ",
+            "C) Análise das causas. ",
+            "D) Estudo e monitoramento de resultados."
         ],
-        correct: 0
+        correct: 2
     },
     {
         question: "O que é o Balanced Scorecard (BSC)?",
