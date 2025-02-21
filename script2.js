@@ -10,7 +10,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "Quais são as etapas principais do MASP? ",
+        question: "Quais são as etapas principais do MASP?",
         answers: [
             "A) Definição do problema, pesquisa de mercado, análise SWOT e análise de custos.",
             "B) Identificação do problema, análise das causas, definição de soluções, implementação e controle dos resultados.",
@@ -20,7 +20,7 @@ const questions = [
         correct: 1
     },
     {
-        question: " No MASP, qual é o objetivo da etapa de (Análise das Causas) ? ",
+        question: "No MASP, qual é o objetivo da etapa de Análise das Causas?",
         answers: [
             "A) Elaborar uma solução sem considerar as causas do problema.",
             "B) Diagnosticar o problema e a necessidade de novos investimentos. ",
@@ -30,7 +30,7 @@ const questions = [
         correct: 2
     },
     {
-        question: " Em qual etapa do MASP é feita a coleta de dados para análise? ",
+        question: "Em qual etapa do MASP é feita a coleta de dados para análise?",
         answers: [
             "A) Implementação da solução.",
             "B) Definição do problema. ",
@@ -40,7 +40,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "O que caracteriza a etapa de (Definição do Problema) no MASP? ",
+        question: "O que caracteriza a etapa de Definição do Problema no MASP?",
         answers: [
             "A) Trata-se de identificar quais recursos financeiros serão necessários",
             "B) Consiste em delimitar e descrever claramente o problema a ser resolvido, sem considerar soluções ainda.",
@@ -50,7 +50,7 @@ const questions = [
         correct: 1
     },
     {
-        question: " Qual é o papel da (Implementação) no MASP? ",
+        question: "Qual é o papel da Implementação no MASP?",
         answers: [
             "A) Resolver o problema sem se preocupar com o impacto em longo prazo.",
             "B) Aplicar as soluções propostas com acompanhamento dos resultados.",
@@ -60,7 +60,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "No MASP, o que é feito durante a etapa de (Controle dos Resultados)?",
+        question: "No MASP, o que é feito durante a etapa de Controle dos Resultados?",
         answers: [
             "A) A solução é monitorada para garantir que os problemas sejam definitivamente resolvidos. ",
             "B) Apenas a definição de novas metas e objetivos é realizada.",
@@ -70,7 +70,7 @@ const questions = [
         correct: 0
     },
     {
-        question: "Qual é a importância de realizar o (Estudo da Viabilidade) dentro do MASP? ",
+        question: "Qual é a importância de realizar o Estudo da Viabilidade dentro do MASP?",
         answers: [
             "A) Avaliar se o problema identificado está gerando altos custos financeiros.",
             "B) Verificar se a solução proposta pode ser aplicada de forma eficiente, considerando recursos, tempo e custo.",
