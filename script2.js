@@ -72,7 +72,7 @@ const questions = [
     {
         question: "Qual é a importância de realizar o (Estudo da Viabilidade) dentro do MASP? ",
         answers: [
-            "A) Avaliar se o problema identificado está gerando altos custos financeiros. ",
+            "A) Avaliar se o problema identificado está gerando altos custos financeiros.",
             "B) Verificar se a solução proposta pode ser aplicada de forma eficiente, considerando recursos, tempo e custo.",
             "C) Identificar os principais envolvidos no processo de solução.",
             "D) Criar um plano de marketing para promover a solução."
@@ -80,22 +80,22 @@ const questions = [
         correct: 1
     },
     {
-        question: 'A perspectiva "aprendizado e crescimento" do BSC está relacionada a:',
+        question: 'Qual é o benefício da aplicação do MASP em uma organização?',
         answers: [
-            "A) Melhorar a infraestrutura tecnológica da empresa.",
-            "B) Focar na inovação, no desenvolvimento de competências e habilidades dos colaboradores e no ambiente organizacional.",
-            "C) Maximizar a produção de bens e serviços.",
-            "D) Aumentar as receitas através de novas aquisições de empresas."
+            "A) Aumento de custos operacionais sem melhoria significativa nos resultados.",
+            "B) Melhoria contínua nos processos e soluções estruturadas para os problemas encontrados.",
+            "C) Redução de recursos financeiros e materiais.",
+            "D) Aumento da competitividade no mercado por meio de estratégias agressivas."
         ],
         correct: 1
     },
     {
-        question: "Qual é a principal vantagem do Balanced Scorecard (BSC)?",
+        question: "Em que situação o MASP é mais utilizado?",
         answers: [
-            "A) Ele permite medir exclusivamente os lucros financeiros de uma organização.",
-            "B) Ele oferece uma abordagem equilibrada para medir o desempenho, considerando não apenas aspectos financeiros, mas também não financeiros, como satisfação do cliente e melhoria dos processos internos.",
-            "C) Ele é utilizado apenas para avaliar a satisfação dos clientes.",
-            "D) Ele foca apenas em indicadores de produtividade dos funcionários."
+            "A) Apenas em empresas de grande porte com grandes problemas financeiros",
+            "B) Para otimizar processos e solucionar problemas identificados em qualquer tipo de organização, independente do porte.",
+            "C) Quando uma empresa precisa realizar reestruturações corporativas rápidas.",
+            "D) Apenas em casos de problemas de marketing e vendas."
         ],
         correct: 1
     },
