@@ -10,7 +10,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "Quais são as fases do ciclo <DMAIC> no Six Sigma?",
+        question: "Quais são as fases do ciclo DMAIC no Six Sigma?",
         answers: [
             "A) Definir, Medir, Analisar, Implantar e Controlar.",
             "B) Definir, Medir, Analisar, Melhorar e Controlar.",
@@ -20,7 +20,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é o principal objetivo da fase <Definir> no ciclo DMAIC?",
+        question: "Qual é o principal objetivo da fase Definir no ciclo DMAIC?",
         answers: [
             "A) Analisar os dados para determinar a causa raiz do problema.",
             "B) Definir os requisitos e escopo do projeto, incluindo os objetivos do cliente e do processo.",
@@ -30,7 +30,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é a principal ferramenta usada na fase <Medir> do Six Sigma?",
+        question: "Qual é a principal ferramenta usada na fase Medir do Six Sigma?",
         answers: [
             "A) Diagrama de Ishikawa.",
             "B) Gráfico de controle.",
@@ -40,7 +40,7 @@ const questions = [
         correct: 3
     },
     {
-        question: "O que é o <Desvio Padrão> no contexto do Six Sigma?",
+        question: "O que é o Desvio Padrão no contexto do Six Sigma?",
         answers: [
             "A) A medida da média dos dados coletados.",
             "B) A diferença entre o maior e o menor valor em um conjunto de dados.",
@@ -50,7 +50,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "O que significa um <Nível Sigma> de 6 sigmas em um processo?",
+        question: "O que significa um Nível Sigma de 6 sigmas em um processo?",
         answers: [
             "A)  O processo tem uma taxa de defeitos de 0,34%.",
             "B) O processo tem um total de defeitos próximo de 0,01%.",
@@ -60,7 +60,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Na fase <Analisar> do DMAIC, qual é o principal objetivo?",
+        question: "Na fase Analisar do DMAIC, qual é o principal objetivo?",
         answers: [
             "A) Medir a eficácia das soluções implementadas.",
             "B) Identificar a causa raiz do problema ou da variação no processo.",
@@ -80,7 +80,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é o propósito da ferramenta <Diagrama de Ishikawa> (ou Diagrama de Causa e Efeito)?",
+        question: "Qual é o propósito da ferramenta Diagrama de Ishikawa (ou Diagrama de Causa e Efeito)?",
         answers: [
             "A) Visualizar a variação no processo.",
             "B) Identificar e categorizar as causas possíveis para um problema.",
@@ -90,7 +90,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é o conceito de <Capacidade do Processo> (Cp) no Six Sigma?",
+        question: "Qual é o conceito de Capacidade do Processo (Cp) no Six Sigma?",
         answers: [
             "A) A capacidade de um processo para se adaptar rapidamente a mudanças.",
             "B) A habilidade do processo em produzir o número máximo de unidades em um dado tempo.",
