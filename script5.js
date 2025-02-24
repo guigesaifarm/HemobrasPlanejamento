@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: " O que é o Six Sigma?",
+        question: " O que é o <b>Six Sigma</b>?",
         answers: [
             "A) Uma metodologia de gestão de projetos ágeis.",
             "B) Uma técnica de marketing para melhorar a satisfação do cliente.",
