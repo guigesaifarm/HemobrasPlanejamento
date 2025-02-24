@@ -10,16 +10,6 @@ const questions = [
         correct: 0
     },
     {
-        question: "Quais são as fases do ciclo <DMAIC> no Six Sigma?",
-        answers: [
-            "A) Definir, Medir, Analisar, Implantar e Controlar.",
-            "B) Definir, Medir, Analisar, Melhorar e Controlar.",
-            "C) Determinar, Mapear, Avaliar, Implantar e Controlar.",
-            "D) Diagnosticar, Medir, Analisar, Implementar e Controlar."
-        ],
-        correct: 1
-    },
-    {
         question: "No contexto da análise de investimentos, o que é o Valor Presente Líquido (VPL)?",
         answers: [
             "A) É o valor de todos os fluxos de caixa futuros, descontados pela taxa de juros.",
