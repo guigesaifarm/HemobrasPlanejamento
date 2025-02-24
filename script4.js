@@ -80,7 +80,7 @@ const questions = [
         correct: 2
     },
     {
-        question: 'Qual das alternativas é uma das principais atividades do processo de "Planejamento das Aquisições"?',
+        question: 'Qual das alternativas é uma das principais atividades do processo de (Planejamento das Aquisições)?',
         answers: [
             "A) Estabelecer os requisitos de cada tarefa no cronograma.",
             "B) Definir os critérios para aquisição de recursos externos, como contratos e fornecedores.",
