@@ -5,27 +5,28 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive;
-    background-color: blue;
+    font-family: 'Arial', sans-serif; /* Fonte mais moderna e legível */
+    background-color: #f4f4f4; /* Fundo mais suave */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    min-height: 100vh; /* Garante que o corpo ocupa toda a altura da tela */
 }
 
 .container {
-    width: 70%;
-    padding: 10px;
-    background-color: #98fb98;
-    border-radius: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-size: 16px;
+    width: 50%; /* Largura ajustável */
+    max-width: 800px; /* Largura máxima para telas maiores */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o container */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+    text-align: left; /* Texto alinhado à esquerda para melhor leitura */
 }
 
 h1 {
+    color: #333; /* Cor do título mais escura */
     margin-bottom: 20px;
+    text-align: center; /* Título centralizado */
 }
 
 #question-container {
@@ -33,17 +34,45 @@ h1 {
 }
 
 label {
-    font-size: 20px; /* Aumenta o tamanho das respostas */
-    margin: 1px 0; /* Espaçamento entre as respostas */
-    display: block; /* Coloca cada resposta em uma linha separada */
+    font-size: 18px; /* Tamanho da fonte ajustado */
+    margin-bottom: 10px; /* Espaçamento entre as respostas */
+    display: block;
+    cursor: pointer; /* Cursor de mão ao passar sobre as opções */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Espaçamento entre o radio button e o texto */
 }
 
 button {
-    padding: 15px 30px;
-    font-size: 24px;
+    padding: 12px 25px;
+    font-size: 16px; /* Tamanho da fonte ajustado */
     cursor: pointer;
-    color: blue;
-    font-family: 'Papyrus', cursive;
-    border-radius: 16px;
+    background-color: #007bff; /* Cor de destaque para o botão */
+    color: #fff; /* Texto branco no botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px;
     margin-top: 20px;
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    .container {
+        width: 90%; /* Largura total em telas menores */
+        padding: 15px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
 }
