@@ -30,34 +30,34 @@ const questions = [
         correct: 2
     },
     {
-        question: "O que significa a modelagem To-Be em gestão de processos?",
+        question: "O que define a metodologia KANBAN em relação ao fluxo de trabalho? ",
         answers: [
-            "A) Representa o processo atual, com todos os problemas identificados.",
-            "B) Representa o processo após a implementação de melhorias ou mudanças desejadas.",
-            "C) Representa o processo sem quaisquer alterações ou otimizações.",
-            "D) Representa o processo como ele é no final do projeto."
+            "A)  Utiliza ciclos fixos e prazos definidos.",
+            "B)  É baseada em uma lista de tarefas pré estabelecidas.",
+            "C) Foca na visualização do trabalho e no controle do fluxo de tarefas em tempo real",
+            "D) Segue uma abordagem de desenvolvimento iterativo com entregas frequentes."
+        ],
+        correct: 2
+    },
+    {
+        question: "Em Scrum, qual é a duração típica de um Sprint?",
+        answers: [
+            "A) De 1 a 3 dias.",
+            "B) De 1 a 4 semanas.",
+            "C) De 1 a 6 meses.",
+            "D) De 3 a 12 meses."
         ],
         correct: 1
     },
     {
-        question: "Qual é a relação entre os conceitos de As-Is e To-Be na gestão de processos?",
+        question: "Qual é o principal objetivo da cerimônia (Daily Scrum) no Scrum?",
         answers: [
-            "A) As-Is representa o processo ideal e To-Be representa o processo atual.",
-            "B) As-Is representa o processo atual, enquanto To-Be representa o processo otimizado ou futuro.",
-            "C) Não há relação entre esses conceitos.",
-            "D) As-Is é uma versão temporária do processo e To-Be é o final do ciclo de vida do processo."
+            "A) Fazer uma reunião de planejamento do projeto.",
+            "B) Realizar a retrospectiva do projeto.",
+            "C) Atualizar o time sobre o progresso diário e identificar impedimentos.",
+            "D) Avaliar a entrega do produto."
         ],
-        correct: 1
-    },
-    {
-        question: "O que é a Gestão de Processos de Negócios,BPM, focada em?",
-        answers: [
-            "A) Em criar processos de negócios de baixo custo, independentemente da qualidade.",
-            "B) Em melhorar e otimizar processos de negócios de forma contínua.",
-            "C) Em criar novos produtos e serviços sem se preocupar com os processos.",
-            "D) Em manter os processos exatamente como estão, sem alterações."
-        ],
-        correct: 1
+        correct: 2
     },
     {
         question: "Quais são os principais objetivos da modelagem de processos de negócios?",
