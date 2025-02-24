@@ -10,24 +10,24 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é a principal função dos indicadores de desempenho de processos (KPIs)?",
+        question: "Qual dos seguintes papéis não faz parte da estrutura do Scrum?",
         answers: [
-            "A) Garantir que todos os processos sejam concluídos dentro do prazo estipulado.",
-            "B) Medir a eficiência e a eficácia dos processos, permitindo ajustes e melhorias.",
-            "C) Controlar as atividades individuais de cada colaborador no processo.",
-            "D) Prever o sucesso do processo no longo prazo, sem necessidade de ajustes."
+            "A) Scrum Master.",
+            "B) Product Owner.",
+            "C) Time de Desenvolvimento.",
+            "D) Gerente de Projetos."
         ],
-        correct: 1
+        correct: 3
     },
     {
-        question: "O que caracteriza a modelagem de processos As-Is?",
+        question: "No Scrum, o que é o "Backlog" do Produto?",
         answers: [
-            "A) Modelagem que representa o processo como ele deveria ser no futuro.",
-            "B) Modelagem que descreve o processo como ele é atualmente, sem mudanças.",
-            "C) Modelagem que descreve a visão futura desejada para o processo",
-            "D) Modelagem que descreve o processo após as melhorias serem implementadas."
+            "A) Um conjunto de tarefas que o time de desenvolvimento precisa realizar",
+            "B) Um banco de dados de informações do projeto.",
+            "C)  A lista de requisitos e funcionalidades desejadas para o produto, priorizada pelo Product Owner.",
+            "D) A lista de todos os erros reportados durante o ciclo de desenvolvimento."
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "O que significa a modelagem To-Be em gestão de processos?",
