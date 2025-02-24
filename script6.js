@@ -20,7 +20,7 @@ const questions = [
         correct: 3
     },
     {
-        question: "O que é <Alavancagem> Financeira?",
+        question: "O que é Alavancagem Financeira?",
         answers: [
             "A) É a utilização de ativos tangíveis para garantir um empréstimo.",
             "B) É a utilização de recursos próprios na operação de uma empresa.",
@@ -40,7 +40,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "O que é <Endividamento> de uma empresa?",
+        question: "O que é Endividamento de uma empresa?",
         answers: [
             "A)  A relação entre a dívida e o capital social da empresa.",
             "B) A quantidade de recursos próprios que a empresa tem disponível para suas operações.",
@@ -50,7 +50,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "Quando uma empresa utiliza <Alavancagem Financeira>, o que ela está buscando?",
+        question: "Quando uma empresa utiliza Alavancagem Financeira, o que ela está buscando?",
         answers: [
             "A) Reduzir o retorno sobre o investimento.",
             "B) Aumentar o risco e o retorno de seu capital próprio.",
@@ -60,7 +60,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é a principal diferença entre <Custo de Capital> e <Taxa de Retorno exigida>?",
+        question: "Qual é a principal diferença entre Custo de Capital e Taxa de Retorno exigida?",
         answers: [
             "A) O custo de capital é o retorno necessário para atrair investidores, enquanto a taxa de retorno exigida é a taxa que os investidores esperam de um ativo específico.",
             "B) O custo de capital é o valor que a empresa paga de juros, enquanto a taxa de retorno exigida é o custo de aquisição de novos ativos.",
