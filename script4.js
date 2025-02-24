@@ -60,44 +60,44 @@ const questions = [
         correct: 2
     },
     {
-        question: "Quais são os principais objetivos da modelagem de processos de negócios?",
+        question: "Qual é a principal característica do Kanban em relação ao Scrum?",
         answers: [
-            "A) Documentar e identificar os processos de forma clara, para que possam ser analisados e otimizados.",
-            "B) Aumentar o custo operacional sem trazer benefícios claros.",
-            "C) Criar processos sem considerar a eficiência ou a eficácia",
-            "D) Deixar os processos mais complexos e difíceis de serem gerenciados."
-        ],
-        correct: 0
-    },
-    {
-        question: "Quais são as etapas típicas no ciclo de melhoria de processos no BPM?",
-        answers: [
-            "A) Planejamento, execução, avaliação, encerramento.",
-            "B) Análise, redesenho, implementação, monitoramento.",
-            "C) Planejamento, execução, controle de qualidade, encerramento.",
-            "D) Monitoramento, análise de riscos, aprovação e execução."
+            "A) Kanban utiliza sprints curtos e ciclos fixos.",
+            "B) Kanban não tem roles definidos como Scrum Master e Product Owner.",
+            "C) Kanban exige uma reunião diária obrigatória.",
+            "D) Kanban trabalha com prazos fixos de entrega."
         ],
         correct: 1
     },
     {
-        question: 'Como os indicadores de desempenho de processos (KPIs) contribuem para a melhoria contínua em uma organização?',
+        question: "O que envolve o processo de (Gerenciamento das Aquisições do Projeto)?",
         answers: [
-            "A) Facilitam o controle financeiro sem relação direta com os processos",
-            "B) Permitem monitorar a eficiência dos processos e identificar áreas para melhoria contínua.",
-            "C) São usados exclusivamente para penalizar equipes quando não atingem metas.",
-            "D) Não têm impacto direto no desempenho dos processos."
+            "A) Determinar os riscos do projeto.",
+            "B) Identificar os stakeholders do projeto.",
+            "C) Planejar, realizar, monitorar e controlar as aquisições de bens e serviços externos.",
+            "D) Criar o cronograma do projeto."
+        ],
+        correct: 2
+    },
+    {
+        question: 'Qual das alternativas é uma das principais atividades do processo de "Planejamento das Aquisições"?',
+        answers: [
+            "A) Estabelecer os requisitos de cada tarefa no cronograma.",
+            "B) Definir os critérios para aquisição de recursos externos, como contratos e fornecedores.",
+            "C) Estabelecer as métricas de desempenho do time de desenvolvimento.",
+            "D) Criar o plano de comunicação do projeto."
         ],
         correct: 1
     },
     {
-        question: "Quais são os principais benefícios da aplicação do BPM em uma organização?",
+        question: "O que significa (Contratação de Aquisições) no ciclo de gerenciamento de aquisições de um projeto?",
         answers: [
-            "A) Aumento de custos operacionais sem impacto nas operações.",
-            "B) Melhoria da comunicação interna, redução de custos e aumento da eficiência dos processos.",
-            "C) Redução da flexibilidade organizacional.",
-            "D) Foco exclusivo em resultados financeiros, sem considerar a qualidade dos processos."
+            "A) A fase onde são feitas as propostas para aquisição de bens ou serviços.",
+            "B) A fase onde o gerente de projetos assume a responsabilidade total pelas aquisições.",
+            "C) A fase onde são feitas as compras ou contratações de acordo com o planejamento.",
+            "D) A fase onde são definidas as funções dos fornecedores."
         ],
-        correct: 1
+        correct: 2
     }
 ];
 
