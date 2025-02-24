@@ -1,13 +1,13 @@
 const questions = [
     {
-        question: " O que é o Six Sigma?",
+        question: "O que caracteriza a relação entre risco e retorno em investimentos financeiros?",
         answers: [
-            "A) Uma metodologia de gestão de projetos ágeis.",
-            "B) Uma técnica de marketing para melhorar a satisfação do cliente.",
-            "C) Um conjunto de técnicas e ferramentas usadas para melhorar os processos e reduzir a variação.",
-            "D) Um método exclusivo para controlar custos em projetos."
+            "A) Quanto maior o risco, maior o retorno esperado.",
+            "B) Quanto maior o risco, menor o retorno esperado.",
+            "C) Não existe relação entre risco e retorno.",
+            "D) Quanto menor o risco, maior o retorno esperado."
         ],
-        correct: 2
+        correct: 0
     },
     {
         question: "Quais são as fases do ciclo <DMAIC> no Six Sigma?",
@@ -20,84 +20,94 @@ const questions = [
         correct: 1
     },
     {
-        question: "Qual é o principal objetivo da fase <Definir> no ciclo DMAIC?",
+        question: "No contexto da análise de investimentos, o que é o Valor Presente Líquido (VPL)?",
         answers: [
-            "A) Analisar os dados para determinar a causa raiz do problema.",
-            "B) Definir os requisitos e escopo do projeto, incluindo os objetivos do cliente e do processo.",
-            "C) Implantar as soluções para os problemas identificados.",
-            "D) Controlar as melhorias implementadas."
-        ],
-        correct: 1
-    },
-    {
-        question: "Qual é a principal ferramenta usada na fase <Medir> do Six Sigma?",
-        answers: [
-            "A) Diagrama de Ishikawa.",
-            "B) Gráfico de controle.",
-            "C) Pareto Analysis.",
-            "D) Coleta de dados e análise de variabilidade do processo."
+            "A) É o valor de todos os fluxos de caixa futuros, descontados pela taxa de juros.",
+            "B) É a diferença entre o valor investido inicialmente e o retorno final do investimento.",
+            "C) É o valor que a empresa recebe após o pagamento de impostos.",
+            "D) É o valor presente dos fluxos de caixa, descontado pela taxa de retorno exigida."
         ],
         correct: 3
     },
     {
-        question: "O que é o <Desvio Padrão> no contexto do Six Sigma?",
+        question: "O que é <Alavancagem> Financeira?",
         answers: [
-            "A) A medida da média dos dados coletados.",
-            "B) A diferença entre o maior e o menor valor em um conjunto de dados.",
-            "C) A medida da dispersão ou variação dos dados em relação à média.",
-            "D) A soma de todos os valores em um conjunto de dados."
+            "A) É a utilização de ativos tangíveis para garantir um empréstimo.",
+            "B) É a utilização de recursos próprios na operação de uma empresa.",
+            "C) É a utilização de recursos de terceiros para aumentar o potencial de retorno de um investimento.",
+            "D) É a capacidade da empresa de gerar lucros por meio de investimentos em ações."
         ],
         correct: 2
     },
     {
-        question: "O que significa um <Nível Sigma> de 6 sigmas em um processo?",
+        question: "O que a Análise de Investimentos busca avaliar?",
         answers: [
-            "A)  O processo tem uma taxa de defeitos de 0,34%.",
-            "B) O processo tem um total de defeitos próximo de 0,01%.",
-            "C) O processo tem uma variação média de 6%.",
-            "D) O processo não tem variação."
+            "A) O impacto de uma aquisição na estrutura patrimonial da empresa.",
+            "B) A viabilidade financeira de um projeto ou investimento, considerando seu retorno e riscos.",
+            "C) O valor de mercado das ações da empresa.",
+            "D) A eficiência operacional da empresa."
         ],
         correct: 1
     },
     {
-        question: "Na fase <Analisar> do DMAIC, qual é o principal objetivo?",
+        question: "O que é <Endividamento> de uma empresa?",
         answers: [
-            "A) Medir a eficácia das soluções implementadas.",
-            "B) Identificar a causa raiz do problema ou da variação no processo.",
-            "C) Melhorar a eficiência do processo.",
-            "D) Controlar o novo processo após a implementação das melhorias."
-        ],
-        correct: 1
-    },
-    {
-        question: "Qual é a função principal de um <Green Belt> no Six Sigma?",
-        answers: [
-            "A) Liderar projetos de grande porte e definir a estratégia da organização.",
-            "B) Auxiliar na implementação de melhorias em processos, usando as ferramentas do Six Sigma, e atuar como facilitador de pequenos projetos.",
-            "C) Definir e controlar os níveis de produção da organização.",
-            "D) Supervisionar os projetos de todos os Black Belts na organização."
-        ],
-        correct: 1
-    },
-    {
-        question: "Qual é o propósito da ferramenta <Diagrama de Ishikawa> (ou Diagrama de Causa e Efeito)?",
-        answers: [
-            "A) Visualizar a variação no processo.",
-            "B) Identificar e categorizar as causas possíveis para um problema.",
-            "C) Controlar o fluxo de trabalho dentro de um processo.",
-            "D) Determinar a eficácia das ações corretivas."
-        ],
-        correct: 1
-    },
-    {
-        question: "Qual é o conceito de <Capacidade do Processo> (Cp) no Six Sigma?",
-        answers: [
-            "A) A capacidade de um processo para se adaptar rapidamente a mudanças.",
-            "B) A habilidade do processo em produzir o número máximo de unidades em um dado tempo.",
-            "C) A medida de quão bem um processo pode produzir resultados dentro de limites aceitáveis de especificação.",
-            "D) A quantidade de recursos necessários para operar um processo."
+            "A)  A relação entre a dívida e o capital social da empresa.",
+            "B) A quantidade de recursos próprios que a empresa tem disponível para suas operações.",
+            "C) A quantidade de dívidas de curto e longo prazo que a empresa possui.",
+            "D) O valor que a empresa paga aos seus acionistas."
         ],
         correct: 2
+    },
+    {
+        question: "Quando uma empresa utiliza <Alavancagem Financeira>, o que ela está buscando?",
+        answers: [
+            "A) Reduzir o retorno sobre o investimento.",
+            "B) Aumentar o risco e o retorno de seu capital próprio.",
+            "C) Tornar o investimento menos arriscado.",
+            "D) Garantir o pagamento de dividendos."
+        ],
+        correct: 1
+    },
+    {
+        question: "Qual é a principal diferença entre <Custo de Capital> e <Taxa de Retorno exigida>?",
+        answers: [
+            "A) O custo de capital é o retorno necessário para atrair investidores, enquanto a taxa de retorno exigida é a taxa que os investidores esperam de um ativo específico.",
+            "B) O custo de capital é o valor que a empresa paga de juros, enquanto a taxa de retorno exigida é o custo de aquisição de novos ativos.",
+            "C) O custo de capital é a taxa de rentabilidade dos investimentos no mercado financeiro.",
+            "D) A taxa de retorno exigida é a taxa de retorno do investimento em ações da empresa."
+        ],
+        correct: 0
+    },
+    {
+        question: "O que é Planejamento Orçamentário?",
+        answers: [
+            "A) A previsão de lucros e a definição de investimentos para o próximo ano.",
+            "B) A elaboração do orçamento de receita e despesa de uma empresa para um determinado período.",
+            "C) A análise de performance financeira de uma empresa no final do ano fiscal.",
+            "D) O planejamento estratégico de novos projetos para a empresa."
+        ],
+        correct: 1
+    },
+    {
+        question: "Em qual situação a Alavancagem Financeira pode se tornar perigosa para uma empresa?",
+        answers: [
+            "A) Quando a empresa utiliza muitos recursos próprios para financiar seus projetos.",
+            "B) Quando a empresa usa a dívida de forma excessiva, aumentando os custos fixos e o risco de insolvência.",
+            "C) Quando a empresa investe em ações e ativos financeiros.",
+            "D) Quando a empresa reduz o seu nível de endividamento."
+        ],
+        correct: 1
+    },
+    {
+        question: "O que significa Risco de Investimento?",
+        answers: [
+            "A) A certeza de que o retorno será igual ao valor investido.",
+            "B) A possibilidade de o investimento não gerar o retorno esperado ou resultar em perdas financeiras.",
+            "C) A variação das taxas de juros no mercado.",
+            "D) A garantia de lucro em um investimento."
+        ],
+        correct: 1
     }
 ];
 
