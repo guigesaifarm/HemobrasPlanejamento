@@ -20,7 +20,7 @@ const questions = [
         correct: 3
     },
     {
-        question: "No Scrum, o que é o "Backlog" do Produto?",
+        question: "No Scrum, o que é o Backlog do Produto?",
         answers: [
             "A) Um conjunto de tarefas que o time de desenvolvimento precisa realizar",
             "B) Um banco de dados de informações do projeto.",
