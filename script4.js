@@ -1,13 +1,13 @@
 const questions = [
     {
-        question: "O que significa a sigla BPM na gestão de processos de negócios?",
+        question: " O que é o Scrum?",
         answers: [
-            "A) Business Process Management (Gestão de Processos de Negócios).",
-            "B) Balanced Process Management (Gestão Balanceada de Processos).",
-            "C) Business Process Methodology (Metodologia de Processos de Negócios).",
-            "D) Business Planning Model (Modelo de Planejamento de Negócios)."
+            "A) Um tipo de reunião em metodologias ágeis.",
+            "B) Uma estrutura de trabalho para a gestão de projetos ágeis.",
+            "C) Um software de gerenciamento de projetos.",
+            "D) Um tipo de ferramenta de controle de qualidade."
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "Qual é a principal função dos indicadores de desempenho de processos (KPIs)?",
